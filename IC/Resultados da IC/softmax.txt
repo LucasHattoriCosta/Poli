@@ -1,0 +1,1 @@
+softmax  com duas convs de 64 (5,5) e 32 (5,5) fiz acc em .8 mas a loss varia bem baixo
