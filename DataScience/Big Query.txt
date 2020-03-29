@@ -1,0 +1,48 @@
+SELECT 
+  trafficSource.adwordsClickInfo.adGroupId,
+  SUM(totals.transactionRevenue)/1000000,
+  COUNT (hits.transaction.transactionId),
+  COUNT( visitId )
+  
+FROM
+  (TABLE_DATE_RANGE([48893796.ga_sessions_], DATE_ADD(CURRENT_TIMESTAMP(),-1,'DAY'), DATE_ADD(CURRENT_TIMESTAMP(),-1,'DAY')))
+WHERE
+  trafficSource.campaign like "%rtg.%"
+  
+  
+ GROUP BY 1
+ ORDER BY 1
+
+
+
+
+
+
+
+SELECT
+  ABC.adGroupId,
+  SUM(ABC.transactions),
+  COUNT(ABC.transactionId),
+  COUNT (*)
+FROM
+  (SELECT 
+    trafficSource.adwordsClickInfo.adGroupId as adGroupId,
+    visitID,
+    fullVisitorId,
+    hits.transaction.transactionId as transactionId,
+    SUM(totals.transactionRevenue)/1000000 AS transactions,
+  
+  
+  FROM
+    (TABLE_DATE_RANGE([48893796.ga_sessions_], DATE_ADD(CURRENT_TIMESTAMP(),-1,'DAY'), DATE_ADD(CURRENT_TIMESTAMP(),-1,'DAY')))
+  WHERE
+    trafficSource.campaign like "%rtg.%"
+  
+  
+   GROUP BY 1,2,3,4) ABC
+   GROUP BY 1
+
+
+
+"Vai perder essa chance? Aproveite nossas ofertas!
+Mobly - Tudo para sua casa,sem sair de casa"
