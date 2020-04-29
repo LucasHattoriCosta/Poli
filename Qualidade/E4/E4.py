@@ -6,12 +6,8 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 if __name__ == "__main__":
-    # Coloque aqui o nome do seu arquivo de dados. Tem que ser parecido com o data.csv
-    # Tem que ter os nomes ['Diâmetro (mm)', 'Massa (g)', 'Comprimento (mm)'] do jeito que tá em data.csv
     data = pd.read_csv('./data.csv', sep = ";")
 
-    # Coloque aqui os aneis que vc escolheu. Tem que estar na ordem do seu arquivo e repetir de 3 em 3 pq
-    # são 3 medidas pra cada anel.
     data['Anel'] = pd.Series([15,15,15,4,4,4,11,11,11,7,7,7])
 
     # Se tiver uma coluna chamada Unnamed: 0 ele tira
