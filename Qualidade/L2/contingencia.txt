@@ -1,0 +1,16 @@
+\begin{tabular}{lrrr}
+\hline
+                 &   1 &   2 &   3 \\
+\hline
+ Oval            &   3 &   6 &   7 \\
+ Achatada        &   2 &   0 &   1 \\
+ Bicuda          &   1 &   2 &   1 \\
+ Disforme        &   1 &   4 &   6 \\
+ Assimetrica     &   4 &  10 &   8 \\
+ Curva           &   1 &   5 &   3 \\
+ Chanfrada       &   1 &   9 &   5 \\
+ CurtaLonga      &   4 &   5 &   2 \\
+ Não Plano       &   0 &  10 &   6 \\
+ Grande Abertura &   3 &   0 &   0 \\
+\hline
+\end{tabular}
