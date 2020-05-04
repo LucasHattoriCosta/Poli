@@ -1,0 +1,23 @@
+\begin{tabular}{lr}
+\hline
+                 &       value \\
+\hline
+ count           & 100         \\
+ mean            &  20.3534    \\
+ std             &   0.462296  \\
+ min             &  19.35      \\
+ 25\%             &  20.09      \\
+ 50\%             &  20.35      \\
+ 75\%             &  20.7       \\
+ max             &  21.38      \\
+ amplitude       &   2.03      \\
+ mode            &  20.16      \\
+ trim\_mean 80\%   &  20.3725    \\
+ median          &  20.35      \\
+ variance        &   0.213718  \\
+ variation coeff &   0.0225996 \\
+ interquartile   &   0.61      \\
+ skewness        &  -0.295039  \\
+ kurtosis        &  -0.377249  \\
+\hline
+\end{tabular}
