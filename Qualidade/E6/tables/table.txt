@@ -1,0 +1,9 @@
+\begin{tabular}{lrr}
+\hline
+         &   x\_barra\_barra &   amplitude \\
+\hline
+ douglas &         20.1147 &    0.197059 \\
+ laecio  &         20.1271 &    0.223529 \\
+ ponge   &         20.0409 &    0.377059 \\
+\hline
+\end{tabular}
