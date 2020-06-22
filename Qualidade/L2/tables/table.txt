@@ -1,9 +1,0 @@
-\begin{tabular}{rrrrr}
-\hline
-    &   Defeitos de forma &   Defeitos de presilha &   Total de defeitos &   Não conformidade \\
-\hline
-  1 &                   7 &                     13 &                  20 &                  0 \\
-  2 &                  22 &                     29 &                  51 &                  6 \\
-  3 &                  21 &                     18 &                  39 &                  3 \\
-\hline
-\end{tabular}
